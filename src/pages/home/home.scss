@@ -3,4 +3,26 @@ page-home {
     background-color: #222;
     color:white;
     }
+
+    
+    .button-full-ios{
+        height: 30%;
+        width: 75%;
+        margin: 0 auto;
+        background:linear-gradient(45deg, #ff2b2b 1%,#ff6363 100%);
+        margin-bottom: 15px;
+    }
+    .button-full-ios p{
+        display: inline;
+    }
+    .button-full-ios img{
+        padding:0 25px;
+    }
+    .button-full-ios:nth-child(2){    
+        background:linear-gradient(45deg, #2b9fff 1%,#8eccff 100%);
+    }
+    .button-full-ios:last-child{    
+        background:linear-gradient(45deg, #398235 0%,#c9de96 100%);
+    }
+    
 }

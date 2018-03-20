@@ -7,8 +7,8 @@
 </ion-header>
 
 <ion-content padding>
-  <button ion-button full>Résultats</button>
-  <button ion-button full>Podcast</button>
-  <button ion-button full>Articles</button>
+  <button ion-button full> <img src="../../assets/imgs/result.png" height=60px><p> Résultats</p></button>
+  <button  [navPush]="PodcastPage" ion-button full><img src="../../assets/imgs/casque.png" height=60px><p>Podcast</p></button>
+  <button ion-button full><img src="../../assets/imgs/newspaper.png" height=60px><p>Articles</p></button>
   
 </ion-content>
